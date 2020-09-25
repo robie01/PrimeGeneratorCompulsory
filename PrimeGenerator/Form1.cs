@@ -8,23 +8,27 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PrimeGenerator
+namespace PrimeGenerator_UI
 {
     public partial class Form1 : Form
     {
+        
         public Form1()
         {
             InitializeComponent();
+       
         }
 
+        // sequential button
         private void button1_Click(object sender, EventArgs e)
         {
-
+          
         }
 
+        // parallel button
         private void button2_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -48,6 +52,9 @@ namespace PrimeGenerator
             return null;
         }
 
-     
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

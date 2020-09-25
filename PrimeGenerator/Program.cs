@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PrimeGenerator
+namespace PrimeGenerator_UI
 {
     static class Program
     {

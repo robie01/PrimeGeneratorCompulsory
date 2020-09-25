@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PrimeGenerator
+namespace PrimeGenerator_UI
 {
     public class Prime
     {
